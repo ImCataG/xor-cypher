@@ -6,7 +6,7 @@ python encrypt.py <secret> <input file> <binary output file>
 
 To decrypt:
 ```
-python encrypt.py <output> <secret> <binary input file>
+python decrypt.py <output> <secret> <binary input file>
 ```
 
 # [![forthebadge](https://forthebadge.com/images/badges/it-works-why.svg)](https://forthebadge.com)
