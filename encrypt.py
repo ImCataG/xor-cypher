@@ -12,6 +12,10 @@ for i in secret:
         print('Password must contain only letters and numbers!')
         sys.exit() # Errors out if password is invalid
 
+if secretLen > 15 or secretLen < 10:
+    print('Password length must be between 10 and 15 characters!')
+    sys.exit() # Errors out if password length is invalid
+
 input = sys.argv[2]
 
 output = sys.argv[3]
