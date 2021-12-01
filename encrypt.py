@@ -1,35 +1,40 @@
 import sys
 
 if len(sys.argv) != 4:
-    print('invalid arguments')
-    exit()
+    print('Invalid number of arguments!') 
+    sys.exit() # Errors out if argument number is invalid
 
 secret = sys.argv[1]
-sl = len(secret)
+secretLen = len(secret)
+
+for i in secret:
+    if not i.isalpha() and not i.isnumeric():
+        print('Password must contain only letters and numbers!')
+        sys.exit() # Errors out if password is invalid
 
 input = sys.argv[2]
 
 output = sys.argv[3]
 
-f = open(input, 'r')
+try:
+    f = open(input, 'r', encoding = 'utf8') 
+except FileNotFoundError:
+    print('File', input, 'does not exist!')
+    sys.exit() # Errors out if input file does not exist
+
 g = open(output, 'wb')
 
-s = f.read()
-
+textIn = f.read()
 f.close()
-i = 0
 
-res = ''
+# Initialise variables used in the xor process
+counter = 0 
+textOut = ''
 
-for l in s:
-    t = bin(ord(l) ^ ord(secret[i%sl]))[2:]
-    if len(t) != 8:
-        res += '0' * (8-len(t))
-    res += t
-    i += 1
+for letter in textIn: # The actual encryption algorithm
+    textOut += chr(ord(letter) ^ ord(secret[counter%secretLen]))
+    counter += 1
 
-#print(res, file = g, end ='')
-
-g.write(bytearray(int(res[x:x+8], 2) for x in range(0, len(res), 8)))
+g.write(bytes(textOut.encode('utf8'))) # Write to binary file
 
 g.close()
