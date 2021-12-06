@@ -19,10 +19,12 @@ Errors are self-explanatory. You either input a wrong number of arguments or an 
 # Team VS Team
 <b>
 
+---
 
-Echipa noastra: HMM
-Echipa adversa: yoyoboysss
+Echipa noastra: HMM 
+Echipa adversa: yoyoboysss 
 Parola echipei adverse: S (explicatie la output only)
+
 ---
 
 # input + output
