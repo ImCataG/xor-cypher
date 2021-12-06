@@ -16,7 +16,23 @@ A simple explanation can be found on [Wikipedia](https://en.wikipedia.org/wiki/X
 # Error handling
 Errors are self-explanatory. You either input a wrong number of arguments or an invalid password/secret.
 
-# Part 2 (in Romanian)
+# Team VS Team
+<b>
+
+
+Echipa noastra: HMM
+Echipa adversa: yoyoboysss
+Parola echipei adverse: S (explicatie la output only)
+---
+
+# input + output
+```
+python inandout/getthatpass.py
+```
+Se citesc fisierele input.txt si output si se afiseaza xor litera din input cu litera din output. Parola va fi repetata pana la finalul fisierului passwd.txt.
+
+
+# output only
 Echipa yoyoboyss xor-eaza fiecare caracter din input cu TOATE caracterele din parola. Astfel, orice parola cu xorsum egal cu xorsumul parolei originale va decripta textul. Deoarece in input se primesc doar litere mari, litere mici si numere, xorsumul parolei va fi intre 0 si 127. 
 
 ```
