@@ -21,7 +21,7 @@ Errors are self-explanatory. You either input a wrong number of arguments or an 
 ---
 
 Echipa noastra: HMM <br>
-Echipa adversa: yoyoboyss <br>
+Echipa adversa: yoyoboyss(https://github.com/yoyoboyss/Proiect-ASC) <br>
 Parola echipei adverse: S (explicatie la output only)
 
 ---
