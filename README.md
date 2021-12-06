@@ -30,7 +30,7 @@ Parola echipei adverse: S (explicatie la output only)
 ```
 python inandout/getthatpass.py
 ```
-Se citesc fisierele input.txt si output si se afiseaza xor litera din input cu litera din output. Parola va fi repetata pana la finalul fisierului passwd.txt.
+Se citesc fisierele input.txt si output si se afiseaza xor litera din input cu litera din output. Parola va fi repetata pana la finalul fisierului inandout/passwd.txt.
 
 
 # output only
