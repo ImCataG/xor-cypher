@@ -17,12 +17,11 @@ A simple explanation can be found on [Wikipedia](https://en.wikipedia.org/wiki/X
 Errors are self-explanatory. You either input a wrong number of arguments or an invalid password/secret.
 
 # Team VS Team
-<b>
 
 ---
 
-Echipa noastra: HMM <b>
-Echipa adversa: yoyoboysss <b>
+Echipa noastra: HMM <br>
+Echipa adversa: yoyoboysss <br>
 Parola echipei adverse: S (explicatie la output only)
 
 ---
