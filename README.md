@@ -21,8 +21,8 @@ Errors are self-explanatory. You either input a wrong number of arguments or an 
 
 ---
 
-Echipa noastra: HMM 
-Echipa adversa: yoyoboysss 
+Echipa noastra: HMM <b>
+Echipa adversa: yoyoboysss <b>
 Parola echipei adverse: S (explicatie la output only)
 
 ---
